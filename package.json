@@ -1,0 +1,33 @@
+{
+  "name": "opendata_plateau_mapping",
+  "version": "1.0.0",
+  "description": "Mapping PLATEAU and opendata sample on Babylon.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flushpot1125/opendata_plateau_mapping.git"
+  },
+  "keywords": [
+    "PLATEAU"
+  ],
+  "author": "Limes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flushpot1125/opendata_plateau_mapping/issues"
+  },
+  "homepage": "https://github.com/flushpot1125/opendata_plateau_mapping#readme",
+  "devDependencies": {
+    "@babylonjs/core": "^6.21.0",
+    "@babylonjs/loaders": "^6.21.0",
+    "@babylonjs/materials": "^6.21.0",
+    "@babylonjs/post-processes": "^6.21.0",
+    "@babylonjs/procedural-textures": "^6.21.0",
+    "@babylonjs/serializers": "^6.21.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
