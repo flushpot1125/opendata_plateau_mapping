@@ -21,6 +21,7 @@
   "homepage": "https://github.com/flushpot1125/opendata_plateau_mapping#readme",
   "devDependencies": {
     "@babylonjs/core": "^6.21.0",
+    "@babylonjs/inspector": "^6.21.0",
     "@babylonjs/loaders": "^6.21.0",
     "@babylonjs/materials": "^6.21.0",
     "@babylonjs/post-processes": "^6.21.0",
@@ -29,5 +30,9 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "csv-parse": "^5.5.0",
+    "json": "^11.0.0"
   }
 }

@@ -7,11 +7,13 @@
    参考：https://gist.github.com/uupaa/da42698d6b2d2cbb3cca
 */
 const path = require('path');
+
 //const outputPath = path.resolve(__dirname, 'dist');
 const outputPath = path.resolve(__dirname, './');//distではなくプロジェクトのトップに変更
 module.exports = {
     mode: 'development',
     entry: './src/index.js',//起点となるファイルのみを指定。src以下のファイルを個別に指定する必要はない
+   // target: 'node',
     output: {
         // バンドルしてmain.jsとして出力（これは実体として生成されないが、index.htmlなどで呼び出し記述が必要）
         filename: 'main.js',
@@ -26,4 +28,5 @@ module.exports = {
         },
         port: 8080
     }
+    
 }
