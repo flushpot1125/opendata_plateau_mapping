@@ -1,3 +1,9 @@
+/**
+ * 文京区の公衆無線LANスポットのデータ
+ * PLATEAUのマッピングデータとして使用可能
+ * 以下より取得し、json形式に変換した
+ * https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0101040001/resource/caa9beac-f7de-483d-987f-f7aa879ca4e3
+ */
 const BunkyokuWifiData =
 [
     {
