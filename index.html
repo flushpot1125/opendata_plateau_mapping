@@ -22,11 +22,22 @@
             display: block;
             font-size: 0;
         }
+        .headerFPS {
+            grid-column-start: 4;
+            grid-column-end: 4;
+            grid-row-start: 1;
+            grid-row-end: 1;
+            font-size: 231px;
+            line-height: 0px;
+            text-align: center;
+            background-color: #BB464B;
+        }
     </style>
 </head>
 
 <body>
     <canvas id="renderCanvas" touch-action="none"></canvas>
+  <!-- <div class="headerFPS" id="fps">0</div>-->
 
     <script src="main.js"></script>
 </body>
