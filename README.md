@@ -11,8 +11,8 @@ https://www.geospatial.jp/ckan/dataset/plateau-tokyo23ku
 
 ## オープンデータ
 
-東京都文京区の公衆無線LAN設置場所のオープンデータを使用  
+東京都文京区の保育園情報のオープンデータを使用  
 
 オープンデータはExcelのため、jsonファイルに変更して使用しています。  
 
-https://catalog.data.metro.tokyo.lg.jp/dataset/t131059d0101040001/resource/caa9beac-f7de-483d-987f-f7aa879ca4e3  
+https://www.city.bunkyo.lg.jp/kusejoho/opendata/portalsite.html
