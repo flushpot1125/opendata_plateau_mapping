@@ -1,6 +1,19 @@
 # opendata_plateau_mapping
 PLATEAUで表示した地形データに、同じ場所のオープンデータをマッピングする例です。Babylon.jsを使っています。
 
+# 起動方法
+
+初回のみ  
+
+```
+$ npm i
+```
+
+```
+$ npx webpack serve --mode development
+```
+http://<IPアドレス>:8080 にアクセス  
+
 # 使用しているデータ
 
 ## PLATEAU  
